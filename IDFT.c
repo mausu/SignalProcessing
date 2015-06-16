@@ -26,7 +26,7 @@ int main(int argc, char *argv[]){
     }
 
     FILE *fp;
-    fp = fopen("spectral.txt", "r");
+    fp = fopen("spectrum.txt", "r");
     if(fp == NULL){
         return -1;
     }
